@@ -12,13 +12,13 @@
   protected
 
   def age
-    @age * CAT_YEARS
+    age_priv
   end
 
   private
 
-  def age_human_years
-    @age / CAT_YEARS
+  def age_priv
+    @age * CAT_YEARS
   end
 
 end
